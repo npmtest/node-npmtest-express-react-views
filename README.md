@@ -1,6 +1,6 @@
 # npmtest-express-react-views
 
-#### test coverage for  [express-react-views (v0.10.2)](https://github.com/reactjs/express-react-views#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-react-views.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-react-views) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-react-views.svg)](https://travis-ci.org/npmtest/node-npmtest-express-react-views)
+#### basic test coverage for  [express-react-views (v0.10.2)](https://github.com/reactjs/express-react-views#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-react-views.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-react-views) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-react-views.svg)](https://travis-ci.org/npmtest/node-npmtest-express-react-views)
 
 #### This is an Express view engine which renders React components on server. It renders static markup and *does not* support mounting those views on the client.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-express-react-views/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-express-react-views/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-express-react-views/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-express-react-views/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-react-views/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-react-views/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-express-react-views/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-express-react-views/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-react-views/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-react-views/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-express-react-views/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-express-react-views/build/coverage.html/index.html)
 
@@ -87,7 +87,8 @@
     "scripts": {
         "test": "node test"
     },
-    "version": "0.10.2"
+    "version": "0.10.2",
+    "bin": {}
 }
 ```
 
